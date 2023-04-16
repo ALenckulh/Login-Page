@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(37, 35, 35);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcontent{
+    color:rgb(221, 233, 243);
+    background-color: rgb(14, 6, 92);
+    box-shadow: 1px 1px 10px rgba(7, 3, 41, 0.445), -1px -1px 10px rgba(7, 3, 41, 0.445);
+    border-radius: 2%;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.title{
+    color:rgb(221, 233, 243);
+    width: auto;
+    height: 10vh;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*resposta*/
+.answer{
+    color:rgb(188, 218, 243);
+    width: 20vw;
+    height: 25vh;
+    font-size: 0.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cpf{
+    color:rgb(188, 218, 243) ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(14, 6, 92);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(188, 218, 243);
+    outline: none;
+    resize: none;
+}
+
+input{
+    color:rgb(188, 218, 243) ;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(14, 6, 92);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(188, 218, 243);
+    outline: none;
+}
+
+/*butão*/
+.butt{
+    width: auto;
+    height: 15vh;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    background-color: rgb(14, 6, 92);
+    color: rgb(188, 218, 243);
+    width: 20vw;
+    height: 10vh;
+    border: 1px  solid rgb(188, 218, 243);
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: 0.2s;
+    width: 20.5vw;
+    height: 10.5vh;
+    background-color: rgb(23, 14, 104);
+}
+
+/*quetões*/
+.questions{
+    width: auto;
+    height: 15vh;
+    font-size: 0.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:-webkit-any-link {
+    color: rgb(188, 218, 243);
+    text-decoration: none;
+}
